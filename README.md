@@ -6,9 +6,13 @@ reports/ folder will have the latest extent report
 
 download chromedriver.exe and mention the path location in zinrelo.properties file accordingly
 
+Eclipse IDE, JDK 1.8, Google Chrome, Apache Maven installed and configured is a prerequisite.
+
 ## Setting Maven Run Configuration Goals
 
-clean test -Dtest=classname#<methodname (for running a single method)
+First of all browse the workspace location, then
+
+clean test -Dtest=classname#methodname (for running a single method)
   
 clean test -Dtest=classname (for running a single class)
   
